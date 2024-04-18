@@ -1,0 +1,231 @@
+#dealFormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf2e1;
+  color: #E8E8E8;
+  width: 99vw;
+}
+
+#coursesFoldContainer {
+  margin-top: 85;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  background-image: url("./coursesFoldBackground.png");
+}
+
+#coursesFoldContainerLeft {
+  text-align: center;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#usernameTitle {
+  font-size: 33px;
+}
+
+#userEmail {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#courseFoldTitle {
+  font-size: 50px;
+}
+
+.studentInitials {
+  font-size: 75px;
+  height: 230px;
+  width: 230px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #ffb355;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  border: 3px white solid;
+}
+
+#dealsContainer {
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #5B5B5B;
+}
+
+#dealsContainerCards {
+  background-color: white;
+  border: 1.5px black solid;
+  padding: 50px 30px;
+  border-radius: 20px;
+}
+
+#dealCreator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#dealCreatorTitle {
+  font-size: 40px
+}
+
+#siteLinkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.inputSection {
+  margin: 7px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #5B5B5B;
+}
+
+#formLinkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#courseFoldParagraph {
+  font-size: 15px;
+  font-weight: 300;
+  width: 600px;
+}
+
+#dealCreatorParagraph {
+  font-size: 15px;
+  font-weight: 300;
+  width: 600px;
+}
+
+#dealCreatorParagraph {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#createDeal {
+  color: #3C3C3C;
+  width: 200px;
+  height: 40px;
+  left: 1201.2px;
+  top: 34px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-shadow: 0px 6px 0px #000000;
+  border-radius: 100px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+#createDeal:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+}
+
+#createDeal:active {
+  transform: translateY(5px);
+}
+
+@media only screen and (max-width: 900px) {
+
+  #courseFoldTitle {
+    display: none;
+  }
+
+  #coursesFoldContainer {
+    margin-top: 85;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #coursesFoldContainerLeft {
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  #coursesFoldContainerRight {
+    text-align: center;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  #dealCreatorTitle {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #dealCreatorParagraph {
+    font-size: 15px;
+    font-weight: 300;
+    width: 85%;
+  }
+
+  #coursesFoldContainer {
+    margin-top: 85;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #courseFoldParagraph {
+    font-size: 15px;
+    font-weight: 200;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #coursesFoldContainerLeft {
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  #coursesFoldContainerRight {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #dealsContainerCards {
+    background-color: white;
+    border: 1.5px black solid;
+    padding: 50px 30px;
+    border-radius: 20px;
+    width: 90vw;
+  }
+}

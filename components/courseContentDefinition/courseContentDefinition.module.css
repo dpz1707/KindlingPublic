@@ -1,0 +1,30 @@
+.definitionContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.definition {
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    border: #000 solid 2px;
+    color: #5B5B5B;
+    padding: 10px;
+    z-index: 1;
+    top: -100px;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 12px;
+    width: 200px;
+}
+
+.term:hover+.definition {
+    visibility: visible;
+}
+
+.term {
+    color: #5B5B5B;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}

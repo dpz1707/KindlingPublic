@@ -1,0 +1,58 @@
+#caseStudyMultipleChoiceContainer {
+    background-image: url("./banner_background.png");
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#caseStudyMultipleChoiceTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #5B5B5B;
+}
+
+#caseStudyMultipleChoiceQuestion {
+    margin-top: 10px;
+    font-weight: 300;
+    color: #5B5B5B;
+}
+
+#dropdownAnswerSelector {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+#dropdownAnswerSelector:focus,
+#dropdownAnswerSelector:active,
+#dropdownAnswerSelector:hover,
+#dropdownAnswerSelector:visited {
+    outline: none !important;
+}
+
+
+#dropdownAnswer:focus,
+#dropdownAnswer:active,
+#dropdownAnswer:hover,
+#dropdownAnswer:visited {
+    outline: none !important;
+}
+
+#dropdownAnswer {
+    font-family: 'Poppins', sans-serif;
+}
+
+#caseStudyDropdownQuestion {
+    margin-top: 10px;
+    color: #5B5B5B;
+    font-weight: 400;
+    font-size: 15px;
+}

@@ -1,0 +1,40 @@
+#rightCourseColumnContainer {
+    background-color: white;
+    width: 50%;
+    height: calc(100vh - 85px);
+    padding: 50px 30px;
+    overflow: scroll;
+    color: #3C3C3C;
+}
+
+#caseStudyTitle {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#caseStudyParagraph {
+    font-size: 14px;
+}
+
+#continueButtonContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 30px 0;
+}
+
+.photo {
+    align-items: center;
+    width: 70%;
+    border-radius: 5%;
+    border: 1px solid #5B5B5B;
+    margin: 0;
+}
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}

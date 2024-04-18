@@ -1,0 +1,124 @@
+#coursesFoldContainer {
+  width: 100%;
+  margin-top: 85;
+  height: 400px;
+  background-image: url("coursesFoldBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#coursesFoldContainerLeft {
+  color: #E8E8E8;
+  text-align: center;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#coursesFoldContainerRight {
+  color: #E8E8E8;
+}
+
+#usernameTitle {
+  font-size: 33px;
+}
+
+#userEmail {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+#courseFoldTitle {
+  font-size: 50px;
+}
+
+#courseFoldParagraph {
+  font-size: 15px;
+  font-weight: 300;
+  width: 600px;
+}
+
+.studentInitials {
+  font-size: 75px;
+  height: 230px;
+  width: 230px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #ffb355;
+  border-radius: 15px;
+  display: flex;
+  border: 4px white solid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  #coursesFoldContainer {
+    margin-top: 85;
+    height: 600px;
+    background-image: url("coursesFoldBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #coursesFoldContainerLeft {
+    color: #E8E8E8;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  #coursesFoldContainerRight {
+    text-align: center;
+  }
+}
+
+#myDeals {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  #coursesFoldContainer {
+    margin-top: 85;
+    height: 800px;
+    background-image: url("coursesFoldBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #courseFoldParagraph {
+    font-size: 15px;
+    font-weight: 200;
+    width: 400px;
+  }
+
+  #coursesFoldContainerLeft {
+    color: #E8E8E8;
+    text-align: center;
+    margin-right: 0px;
+
+  }
+
+  #coursesFoldContainerRight {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

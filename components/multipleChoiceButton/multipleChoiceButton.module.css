@@ -1,0 +1,41 @@
+.whiteButton {
+  color: #3C3C3C;
+  min-width: 100px;
+  width: 40%;
+  height: 40px;
+  left: 1201.2px;
+  top: 34px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-shadow: 0px 6px 0px #000000;
+  border-radius: 100px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 10px 10px;
+}
+
+#whiteButton:hover {
+  cursor: pointer;
+}
+
+#landingFold {
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+#landingFold:hover {
+  cursor: pointer;
+}
+
+#community {
+  background: red;
+}
+
+@media only screen and (max-width: 600px) {
+  #Login {
+    display: none;
+  }
+}

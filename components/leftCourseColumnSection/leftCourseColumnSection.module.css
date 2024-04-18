@@ -1,0 +1,14 @@
+#LeftCourseColumnSectionContainer {
+    width: 150px;
+    border-bottom: 1px solid black;
+    padding: 20px 10px;
+    color: #4E4E4E;
+    z-index: 500;
+}
+
+#LeftCourseColumnSectionContainer:hover {
+   background-color: #ffffff;
+   border-right: 1px solid black;
+   overflow-y: scroll;
+   cursor: pointer;
+}

@@ -1,0 +1,189 @@
+#companySectionContainer {
+  background-image: url("./courseCardBackground.png");
+  padding: 20px 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: 1px black solid;
+  box-shadow: 0 0px 3px #0000004c;
+  display: flex;
+  justify-content: space-around;
+}
+
+.companyPhoto {
+  height: 100px;
+  width: 100px;
+  border: 1.5px #5B5B5B solid;
+  border-radius: 7px;
+}
+
+#courseCardTitle {
+  color: #5B5B5B;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+#companySectionContainerLeft {
+  display: flex;
+  align-items: center;
+}
+
+#companySectionContainerCompanyInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  width: 250px;
+}
+
+#lookingFor {
+  font-size: 15px;
+  color: #5B5B5B;
+  margin: 0;
+}
+
+#relationship {
+  font-size: 15px;
+  color: #5B5B5B;
+  margin: 0;
+}
+
+#siteLinkContainer {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1100px) {
+  #companySectionContainer {
+    background-image: url("./courseCardBackground.png");
+    padding: 20px 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 0 0px 3px #0000004c;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .companyPhoto {
+    height: 90px;
+    width: 90px;
+    border: 1.5px black solid;
+  }
+
+  #courseCardTitle {
+    color: #5B5B5B;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+
+  #companySectionContainerLeft {
+    display: flex;
+    align-items: center;
+  }
+
+  #companySectionContainerCompanyInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    width: 170px;
+  }
+
+  #lookingFor {
+    font-size: 12px;
+    color: #5B5B5B;
+    margin: 0;
+  }
+
+  #relationship {
+    font-size: 12px;
+    color: #5B5B5B;
+    margin: 0;
+  }
+
+  #siteLinkContainer {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #companySectionContainer {
+    background-image: url("./courseCardBackground.png");
+    padding: 20px 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 0 0px 3px #0000004c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #companySectionContainerCompanyInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 250px;
+    margin: 20px;
+  }
+
+  #companySectionContainerLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #courseCardTitle {
+    color: #5B5B5B;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .companyPhoto {
+    height: 120px;
+    width: 120px;
+    border: 1.5px black solid;
+  }
+
+  #siteLinkContainer {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #lookingFor {
+    font-size: 16px;
+    color: #5B5B5B;
+    margin: 0;
+  }
+
+  #relationship {
+    font-size: 16px;
+    color: #5B5B5B;
+    margin: 0;
+  }
+
+}

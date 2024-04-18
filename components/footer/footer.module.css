@@ -1,0 +1,19 @@
+#footerContainer {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerLink {
+  color: #848484;
+  margin: 0 30px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#footerContainer a {
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+#rightCourseColumnContainer {
+    background-color: white;
+    width: 50%;
+    height: calc(100vh - 85px);
+    padding: 50px 30px;
+    overflow: scroll;
+    color: #3C3C3C;
+}
+
+#caseStudyTitle {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#caseStudyParagraph {
+    font-size: 14px;
+}
+
+#continueButtonContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 30px 0;
+}

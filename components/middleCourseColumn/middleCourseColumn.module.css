@@ -1,0 +1,18 @@
+#middleCourseColumnContainer {
+    background-color: #FFFAF2;
+    width: 50%;
+    height: 100vh;
+    padding: 50px 30px;
+    overflow: scroll;
+    color: #3C3C3C;
+    border-right: 1px black solid;
+}
+
+#courseContentTitle {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.courseContentParagraph {
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+#leftCourseColumnContainer {
+    background-image: url("./leftCourseColumnBackground.png");
+    height: 100vh;
+    width: 150px;
+    border-right: 1px black solid;
+}
+
+#leftCourseColumnChapterTitle {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#leftCourseColumnChapterDescription {
+    display: block;
+    color: #4E4E4E;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#leftCourseColumnTitleContainer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 10px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px black solid;
+}

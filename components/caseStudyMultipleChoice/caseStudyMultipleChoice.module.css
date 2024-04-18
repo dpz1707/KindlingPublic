@@ -1,0 +1,28 @@
+#caseStudyMultipleChoiceContainer {
+    background-image: url("./banner_background.png");
+    padding: 20px 20px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#caseStudyMultipleChoiceTitle
+{
+    font-size: 20px;
+}
+
+#caseStudyMultipleChoiceQuestion {
+
+}
+
+#multipleChoiceAnswerContainer {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

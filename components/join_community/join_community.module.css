@@ -1,0 +1,124 @@
+#joinCommunityContainer {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  background-image: url("./join_community_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #3C3C3C;
+  padding: 50px 0px;
+}
+
+#communityTitle {
+  font-size: 70px;
+  margin: 0;
+}
+
+.communityStats {
+  font-size: 23px;
+  font-weight: 400;
+  color: #848484;
+}
+
+.communityStatsMetric {
+  color: #3C3C3C;
+  font-weight: 700;
+}
+
+#commmunityStatsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+#communityBlurbContainer {
+  width: 86vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#firesideCommunityPhoto {
+  width: 34vw;
+  margin: 0 3vw;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #joinCommunityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./join_community_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+  }
+
+  #communityTitle {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .communityStats {
+    font-size: 18px;
+    font-weight: 400;
+    color: #848484;
+    width: 250px;
+  }
+
+  #communityBlurbContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #communityFlexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #joinCommunityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./join_community_background.png");
+    background-size: 100% 100%;
+    padding: 50px 0px;
+  }
+
+  #communityTitle {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .communityStats {
+    font-size: 15px;
+    font-weight: 400;
+    color: #848484;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #communityBlurbContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #communityFlexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

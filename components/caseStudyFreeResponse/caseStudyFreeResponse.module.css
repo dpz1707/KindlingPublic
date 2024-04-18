@@ -1,0 +1,39 @@
+#caseStudyMultipleChoiceContainer {
+    background-image: url("./banner_background.png");
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#caseStudyMultipleChoiceTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #5B5B5B;
+}
+
+#multipleChoiceAnswerContainer {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#caseStudyMultipleChoiceAnswer {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    color: #5B5B5B;
+}
+
+#caseStudyFreeResponseQuestion {
+    margin-top: 10px;
+    color: #5B5B5B;
+    font-size: 15px;
+}

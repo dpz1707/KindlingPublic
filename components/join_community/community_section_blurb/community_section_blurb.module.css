@@ -1,0 +1,25 @@
+.communitySectionBlurbContainer {
+  text-align: left;
+  width: 30vw;
+  margin: 3vw 5vw;
+}
+
+.communitySectionBlurbContainer p {
+  color: #5B5B5B;
+  font-weight: 200;
+  margin: 1vw 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .communitySectionBlurbContainer {
+    text-align: center;
+    width: 100%;
+    margin: 4vw 5vw;
+  }
+
+  .communitySectionBlurbContainer p {
+    color: #5B5B5B;
+    font-weight: 200;
+    margin: 3vw 0;
+  }
+}
